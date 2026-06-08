@@ -8,6 +8,14 @@
 
 > The full-resolution poster is here: [XAI_Planner_Is_All_You_Need_poster.pdf](XAI_Planner_Is_All_You_Need_poster.pdf).
 
+### Embodied AI Agent instructed: *go to the friendly one*
+
+![Embodied AI Agent instructed: go to the friendly one](simulation_demos/friendly_combo.mp4)
+
+### Embodied AI Agent instructed: *go to the hostile one*
+
+![Embodied AI Agent instructed: go to the hostile one](simulation_demos/hostile_combo.mp4)
+
 ---
 
 ## Motivation
@@ -25,6 +33,8 @@ It is subtler and more interesting: **mood-loaded language nudges physical
 behavior only when the model reasons aloud.** That link between words and actions
 is exactly why XAI matters for embodied AI — we need transparency to catch
 unintended consequences before they reach the motors.
+
+![Locomotion demo](simulation_demos/loco_iso.mp4)
 
 ## Architecture
 

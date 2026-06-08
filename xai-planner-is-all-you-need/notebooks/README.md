@@ -9,7 +9,7 @@ can resume where the last one stopped.
 The `.py` files here are the Colab exports of the notebooks — readable and
 diffable. To run them, open the matching `.ipynb` in Colab (or convert with
 `jupytext --to notebook nbX_*.py`), set the runtime to an A100 GPU, and execute
-top to bottom.
+top to bottom. You can get the working colab notebooks files (.ipynb) [here](https://drive.google.com/drive/folders/1EBQKMpKgqXE6ueNPMsHTeDi4h6Ikmu-o?usp=sharing)
 
 | Notebook | Role | Writes |
 |---|---|---|

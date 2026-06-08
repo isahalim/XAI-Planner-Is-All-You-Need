@@ -20,7 +20,7 @@ top to bottom.
 
 A fifth stage — **NB4**, a 3D temporal saliency map linking attention to
 behavior across the whole path — is referenced throughout as the mechanistic
-follow-up and is listed under future work in the [README](../README.md).
+follow-up and is listed under future work.
 
 ## Relationship to `src/`
 

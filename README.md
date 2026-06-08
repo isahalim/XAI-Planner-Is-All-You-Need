@@ -35,7 +35,7 @@ behavior only when the model reasons aloud.** That link between words and action
 is exactly why XAI matters for embodied AI — we need transparency to catch
 unintended consequences before they reach the motors.
 
-
+<img width="800" height="450" alt="loco_iso" src="https://github.com/user-attachments/assets/9f33dbf0-de68-4ee8-b586-5e3e761d85e4" />
 
 
 ## Architecture

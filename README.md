@@ -41,9 +41,7 @@ unintended consequences before they reach the motors.
 
 The system is a slow planner stacked on a fast controller.
 
-
-<img width="1360" height="1132" alt="go2_vla_control_pipeline" src="https://github.com/user-attachments/assets/9af5dfe9-0eda-4171-9b7b-5d0c81014226" />
-
+<img width="1360" height="1132" alt="go2_vla_control_pipeline_fixed" src="https://github.com/user-attachments/assets/77d3e479-1882-438b-acd3-457b1bc00952" />
 
 - **The Planner** — `Qwen2.5-VL-3B-Instruct` looks at the onboard frame, reads
   the instruction, and emits one JSON object with a bucketed `turn` (0 = hard

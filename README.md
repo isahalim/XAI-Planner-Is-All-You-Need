@@ -112,25 +112,41 @@ in action-only mode the effect disappears.
 ```
 .
 ├── README.md
-├── LICENSE
-├── CITATION.cff
-├── requirements.txt
-├── docs/
-│   ├── XAI_Planner_Is_All_You_Need_poster.pdf   # the research poster
-│   └── poster_preview.png
-├── src/                       # version-controlled copies of the shared modules
-│   ├── config.py              # paths, camera, command ranges, VLM, conditions
-│   ├── qre_utils.py           # render profile, sanity gate, camera geometry,
-│   │                          # bias arena, Qwen load + JSON parser + attention
-│   ├── go2_env.py             # Genesis Go2 env (12 actions, 45-dim obs, 50 Hz)
-│   ├── go2_train.py           # PPO config + training entry point (rsl-rl)
-│   └── go2_eval.py            # high-quality eval video with a follow-camera
-└── notebooks/                 # the four-stage pipeline (Colab exports)
-    ├── README.md
-    ├── nb0_smoke_test_and_config.py
-    ├── nb1_train_locomotion.py
-    ├── nb2_vlm_integration.py
-    └── nb3_behavioral_bias.py
+├── .gitignore
+├── XAI_Planner_Is_All_You_Need_poster.pdf   # the research poster
+├── poster_preview.png
+├── go2_vla_control_pipeline_fixed.svg        # architecture diagram
+├── simulation_demos/                         # rendered simulation videos & GIFs
+│   ├── friendly_combo.mp4
+│   ├── friendly_combo.gif
+│   ├── friendly_iso.mp4
+│   ├── friendly_pov.mp4
+│   ├── hostile_combo.mp4
+│   ├── hostile_combo.gif
+│   ├── hostile_iso.mp4
+│   ├── hostile_pov.mp4
+│   ├── loco_combined.mp4
+│   ├── loco_iso.mp4
+│   ├── loco_iso.gif
+│   └── loco_pov.mp4
+└── xai-planner-is-all-you-need/
+    ├── CITATION.cff
+    ├── LICENSE
+    ├── requirements.txt
+    ├── src/                       # version-controlled copies of the shared modules
+    │   ├── __init__.py
+    │   ├── config.py              # paths, camera, command ranges, VLM, conditions
+    │   ├── qre_utils.py           # render profile, sanity gate, camera geometry,
+    │   │                          # bias arena, Qwen load + JSON parser + attention
+    │   ├── go2_env.py             # Genesis Go2 env (12 actions, 45-dim obs, 50 Hz)
+    │   ├── go2_train.py           # PPO config + training entry point (rsl-rl)
+    │   └── go2_eval.py            # high-quality eval video with a follow-camera
+    └── notebooks/                 # the four-stage pipeline (Colab exports)
+        ├── README.md
+        ├── nb0_smoke_test_and_config.py
+        ├── nb1_train_locomotion.py
+        ├── nb2_vlm_integration.py
+        └── nb3_behavioral_bias.py
 ```
 
 The modules in [`src/`](xai-planner-is-all-you-need/src/) are extracted from the `%%writefile` cells in NB0/NB1, so the library is reviewable without running Colab. See [`notebooks/README.md`](xai-planner-is-all-you-need/notebooks/README.md) for the run order and how modules are loaded at runtime.

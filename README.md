@@ -14,7 +14,8 @@
 
 ### Embodied AI Agent instructed: *go to the hostile one*
 
-![Embodied AI Agent instructed: go to the hostile one](simulation_demos/hostile_combo.mp4)
+<img width="1280" height="360" alt="hostile_combo" src="https://github.com/user-attachments/assets/69a804dd-1b68-42c0-b80e-e64fdd73b43d" />
+
 
 ---
 
@@ -34,7 +35,8 @@ behavior only when the model reasons aloud.** That link between words and action
 is exactly why XAI matters for embodied AI — we need transparency to catch
 unintended consequences before they reach the motors.
 
-![Locomotion demo](simulation_demos/loco_iso.mp4)
+
+
 
 ## Architecture
 

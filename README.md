@@ -174,13 +174,11 @@ API; other versions will break training.
 
 ## Citation
 
-If you use this work, please cite it via [`CITATION.cff`](CITATION.cff) or:
+If you use this work, please cite it via [`CITATION.cff`](xai-planner-is-all-you-need/CITATION.cff) or:
 
 > S. Halim. *XAI Planner Is All You Need: Revealing hidden preferences of
-> vision–language models that leak into quadruped movement using XAI methods.*
+> vision-language models that leak into quadruped movement using XAI methods.*
 
 ## License
 
-Released under the [MIT License](LICENSE). The license and copyright year are a
-sensible default — update them if your institution or collaborators require
-something different.
+Released under the [MIT License](xai-planner-is-all-you-need/LICENSE). The license and copyright year are a sensible default — update them if your institution or collaborators require something different.

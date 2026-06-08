@@ -12,7 +12,7 @@
 
 <img width="1280" height="360" alt="hostile_combo" src="https://github.com/user-attachments/assets/69a804dd-1b68-42c0-b80e-e64fdd73b43d" />
 
-[XAI_Planner_Is_All_You_Need_final.pdf](https://github.com/user-attachments/files/28698621/XAI_Planner_Is_All_You_Need_final.pdf)
+<img width="1500" height="1125" alt="poster_preview" src="https://github.com/user-attachments/assets/c2681183-1d8e-4728-9f6a-7c10ccb92c08" />
 
 > The full-resolution poster is here: [XAI_Planner_Is_All_You_Need_poster.pdf](XAI_Planner_Is_All_You_Need_poster.pdf).
 
